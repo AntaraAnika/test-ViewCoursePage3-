@@ -84,7 +84,281 @@ form .search-input i{
 .cart-border{
     border-right: 1px solid #00C9A8;
 }
-
 .card-style{
     margin-top: 2rem;
+}
+.card-style1{
+    margin-top: 2rem;
+    background-color: #004A3E;
+}
+
+.section-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.comment{
+    background-color: #3a3a3a8a;
+    border-radius: 20px;
+    padding: 2rem;
+    max-height: 600px;
+}
+
+.comment .user img{
+    width: 20px;
+    padding-right: 0.2rem;
+}
+
+.input-style{
+    background-color: #9F9F9F;
+    border-radius: 50px;
+}
+
+.section-title{
+    color: #fff;
+}
+.section-title2{
+    color: #3A3A3A;
+    border: 1px solid #9F9F9F;
+}
+
+.comment{
+    color: #EEEEEE;
+}
+
+.comment .user a{
+    color: #00C9A8;
+}
+
+.section-title2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-left: 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.quiz{
+    border: 1px solid #00C9A8;
+    border-radius: 25px;
+    padding: 2rem 2rem 0;
+}
+
+.week{
+    border: 1px solid #9F9F9F;
+    border-radius: 25px;
+    padding: 2rem 2rem 0;
+    color: black;
+}
+
+.teacher-demo{
+    display: flex;
+    flex-direction: row;
+}
+
+.star img{
+    height: 26px;
+}
+
+.teacher-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teacher-profile .teacher-demo .profile-img{
+    padding: 1rem 1rem 1rem 0;
+}
+
+
+
+
+.alignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.level-style{
+    height: 1rem;
+    margin-bottom: 0.8rem;
+    align-items: center;
+}
+
+.star-details p{
+    margin: 0;
+}
+
+.star-details{
+    margin-bottom: 2rem;
+}
+.star-side .star-details .star-line{
+    margin-bottom: 0.6rem;
+}
+
+.alignment .right-side{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+
+
+Footer{
+    background-color: #004A3E;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+Footer .footer-left{
+    width: 50%;
+}
+
+Footer .footer-left .footer-logo-btn{
+  margin-bottom: 1rem;
+}
+Footer .footer-left img{
+    padding-right: 5rem;
+}
+
+Footer h6{
+    color: #00C9A8;
+}
+
+Footer a{
+    color: #E5E5E5;
+}
+Footer p{
+    color: #E5E5E5;
+}
+Footer small{
+    color: #E5E5E5;
+}
+
+Footer .btn{
+    width: auto;
+    background-color: #004A3E;
+    
+    color: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    outline: none;
+    padding: 5px 28px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    
+
+    .footer-style{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-left .footer-logo-btn{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    .footer-left .footer-logo-btn .btn{
+        margin: auto;
+    }
+    Footer .footer-left img{
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+
+    .section-description{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .section-title2 ul{
+        display: grid;
+  grid-template-columns: auto auto auto auto;
+    }
+
+    .teacher-profile{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+    }
+
+    .nav-icons{
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+    .live{
+        display: flex;
+    justify-content: center;
+    }
+    .comment{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .alignment{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+   .section-title2 ul{
+    display: grid;
+    grid-template-columns: space-evenly;
+    /* justify-content: space-evenly; */
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+   }
+    iframe{
+        width: auto;
+        height: auto;
+    }
+
+    .teacher-demo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alignment{
+        display: flex;
+        flex-direction: column;
+    }
+    .alignment .rating-side{
+        justify-content: space-between;
+    }
+    .alignment .rating-side .rating{
+        flex-direction: column;
+        
+    }
+
+    /* .class1{
+        margin-left: auto;
+    margin-right: -10px;
+    } */
 }
